@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Download do YouTube</title>
+    <style>
+        #titulo{
+    text-align: center;
+}
+
+.menu{
+    background-color: rgba(0, 0, 255, 0.6);
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+    height: 300px;
+}
+
+.lindo{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
+}
+.lindo2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ajustar{
+    margin-top: 60px;
+
+}
+
+.selecao:hover{
+    background-color: aqua;
+    transition: 1000ms;
+}
+
+    </style>
+</head>
+<body>
+    <h1 id="titulo">Download do YouTube</h1>
+    <form action="/download" method="POST" class="menu">
+        <label for="url" class="lindo">URL do vídeo:</label>
+        <input type="text" name="url" id="url" required class="lindo2"><br>
+
+        <div class="ajustar">
+        <label for="tipo">Tipo de download:</label>
+        <select name="tipo" id="tipo" class="selecao">
+            <option value="vídeo">Vídeo</option>
+            <option value="áudio">Áudio</option>
+        </div>
+        </select><br>
+
+        <input type="submit" value="Baixar">
+    </form>
+</body>
+</html>

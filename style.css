@@ -1,0 +1,29 @@
+#titulo{
+    text-align: center;
+}
+
+.menu{
+    background-color: rgba(0, 0, 255, 0.6);
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+    height: 300px;
+}
+
+.lindo{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
+}
+.lindo2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ajustar{
+    margin-top: 60px;
+    
+}
+
+.selecao:hover{
+    background-color: aqua;
+    transition: 1000ms;
+}
